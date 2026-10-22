@@ -1,0 +1,34 @@
+Return-Path: <billing@accounts.example.invalid>
+Received: from mx1.accounts.example.invalid (mx1.accounts.example.invalid [192.0.2.84])
+        by mail.training.example with ESMTP id LAB004-1723
+        for <employee@company.example>; Thu, 22 Oct 2026 14:25:10 -0500
+Authentication-Results: mail.training.example;
+        spf=fail smtp.mailfrom=accounts.example.invalid;
+        dkim=none;
+        dmarc=fail header.from=company.example
+From: "IT Support" <helpdesk@company.example>
+To: employee@company.example
+Subject: ACTION REQUIRED: Verify Your Account Before 5 PM
+Date: Thu, 22 Oct 2026 14:24:30 -0500
+Message-ID: <training-lab004-001@accounts.example.invalid>
+Reply-To: support@accounts.example.invalid
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-Lab-Notice: Synthetic training sample only; NOT a real delivered message.
+
+Hello,
+
+Our system detected a problem with your corporate login. Your account may be
+suspended today unless you verify your password immediately.
+
+Verify now at: https://login-security.example.invalid/verify
+
+If you have questions, reply to this email.
+
+IT Support Team
+
+--
+SYNTHETIC LAB EMAIL - DO NOT SEND OR TREAT AS LIVE TELEMETRY.
+The Authentication-Results line is fabricated for training and was not
+produced by a real receiving mail server. All addresses are fictional and
+IP 192.0.2.84 is reserved for documentation.
